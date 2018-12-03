@@ -4,15 +4,24 @@ Simple web application build with maven to test CI/CD pipelines.
 
 ## Getting Started
 
-To build:
+**To build:**
 ```
 $ make build
 ```
 
-To run:
+**To run:**
+
+*Runs app on a Tomcat server at http://localhost:9090*
+
 ```
 $ make run
 ```
+
+## Built With
+
+* [Maven](https://maven.apache.org) (Obviously)
+* [Maven Webapp Archetype](https://maven.apache.org/archetypes/maven-archetype-webapp)
+* [GNU Make](https://www.gnu.org/software/make)
 
 ## License
 
